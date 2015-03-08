@@ -65,10 +65,181 @@ public class Assign2 {
     	System.out.println("F9= " +FibonP2(9));
     	System.out.println("F10= " +FibonP2(10));
     	
+    	long start = System.nanoTime();
+    	System.out.println("10!= " +FactP1(10));
+    	long end = System.nanoTime();
+    	long total = end - start;
+    	double totalSeconds = (double)total / 1000000000.0;
+    	System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+    	start = System.nanoTime();
+    	System.out.println("20!= " +FactP1(20));
+    	end = System.nanoTime();
+    	total = end - start;
+    	totalSeconds = (double)total / 1000000000.0;
+    	System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+    	start = System.nanoTime();
+    	System.out.println("30!= " +FactP1(30));
+    	end = System.nanoTime();
+    	total = end - start;
+    	totalSeconds = (double)total / 1000000000.0;
+    	System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+    	start = System.nanoTime();
+    	System.out.println("40!= " +FactP1(40));
+    	end = System.nanoTime();
+    	total = end - start;
+    	totalSeconds = (double)total / 1000000000.0;
+    	System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+    	start = System.nanoTime();
+    	System.out.println("50!= " +FactP1(50));
+    	end = System.nanoTime();
+    	total = end - start;
+    	totalSeconds = (double)total / 1000000000.0;
+    	System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+    	start = System.nanoTime();
+    	System.out.println("60!= " +FactP1(60));
+    	end = System.nanoTime();
+    	total = end - start;
+    	totalSeconds = (double)total / 1000000000.0;
+    	System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	System.out.println();
+    	
+    	start = System.nanoTime();
+    	System.out.println("10!= " +FactP2(10));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("20!= " +FactP2(20));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+		
+		start = System.nanoTime();
+    	System.out.println("30!= " +FactP2(30));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+		
+		start = System.nanoTime();
+    	System.out.println("40!= " +FactP2(40));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("50!= " +FactP2(50));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("60!= " +FactP2(60));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	System.out.println();
+    	
+    	start = System.nanoTime();
+    	System.out.println("F10= " +FibonP1(10));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("F20= " +FibonP1(20));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+		System.out.println("F30= " +FibonP1(30));
+		end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+		
+		start = System.nanoTime();
+		System.out.println("F40= " +FibonP1(40));
+		end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+		
+		start = System.nanoTime();
+    	System.out.println("F50= " +FibonP1(50));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("F60= " +FibonP1(60));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	System.out.println();
+    	
+    	start = System.nanoTime();
+    	System.out.println("F10= " +FibonP2(10));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("F20= " +FibonP2(20));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("F30= " +FibonP2(30));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("F40= " +FibonP2(40));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("F50= " +FibonP2(50));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
+		start = System.nanoTime();
+    	System.out.println("F60= " +FibonP2(60));
+    	end = System.nanoTime();
+    	total = end - start;
+		totalSeconds = (double)total / 1000000000.0;
+		System.out.println("Operation took: "+ totalSeconds + " seconds");
+    	
     }
 
-    public static int FactP1(int n){
-    	int value = 1;
+    public static double FactP1(int n){
+    	double value = 1.0;
 
     	if (n == 0 || n == 1){
     		return value;
@@ -84,7 +255,7 @@ public class Assign2 {
     	return value;
     }
 
-    public static int FactP2(int n){
+    public static double FactP2(int n){
     	if (n<1){
     		return 1;
     	}
@@ -94,27 +265,26 @@ public class Assign2 {
     	}
     }
 
-    public static int FibonP1(int n){
-    	int [] value = new int [n];
+    public static double FibonP1(int n){
+    	double [] value = new double [n+1];
 
     		if(n == 0 || n == 1){
     			return 1;
     		}
     		else{
-    			for (int x = 0; x<n; x++){
+    			for (int x = 0; x<n+1; x++){
     				if(x == 0 || x == 1){
-    					value[x] = 1;
+    					value[x] = 1.0;
     				}
     				else{
     					value[x] = value[x-1] + value[x-2];
     				}
     			}
     		}
-
-    	return value[n-1];
+    	return value[n];
     }
 
-    public static int FibonP2(int n){
+    public static double FibonP2(int n){
     	if(n<=1){
     		return 1;
     	}
